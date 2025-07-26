@@ -2,9 +2,9 @@ name: CI/CD Pipeline
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [ docker_ci ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ docker_ci ]
 
 env:
   IMAGE_NAME: yourdockerhubusername/mlops-assignment-3
